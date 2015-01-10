@@ -1,0 +1,9 @@
+name = flag_behat
+core = 7.x
+package = flag
+version = 7.x-1.0
+project = flag_behat
+dependencies[] = behatrunner
+dependencies[] = flag
+features[features_api][] = api:2
+project path = sites/all/modules/features
